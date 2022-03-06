@@ -1,0 +1,114 @@
+/* navbar */
+.nav_logo {
+  cursor: pointer;
+  transform: scale(0.20);
+}
+.nav_logo_side_menu {
+  cursor: pointer;
+  transform: scale(0.1);
+  display: none;
+}
+
+/* section */
+.sectionTitleContainer {
+    width: max-content;
+    height: max-content;
+}
+
+.title {
+    font-size: 1.65rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+.title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 60%;
+    background: #70a73c;
+}
+
+/* toggle switch */
+.theme__switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .theme__switch input.theme__checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .theme__slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .theme__slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input.theme__checkbox:checked + .theme__slider {
+    background-color: #1d1d1d;
+  }
+  
+  input.theme__checkbox:focus + .theme__slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input.theme__checkbox:checked + .theme__slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .theme__slider.theme__round {
+    border-radius: 34px;
+  }
+  
+  .theme__slider.theme__round:before {
+    border-radius: 50%;
+  }
+
+  .product_slider {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .product_slider {
+      width: 300px;
+      height: 400px;
+      margin-bottom: 1rem;
+
+    }
+    .nav_logo {
+      cursor: pointer;
+      transform: scale(0.5);
+    }
+    .nav_logo_side_menu {
+      cursor: pointer;
+      transform: scale(0.40);
+    }
+  }

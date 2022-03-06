@@ -1,0 +1,64 @@
+[
+    {
+        "_id": "620d1f8e059263f8560625c3",
+        "title": "Babu Rao T-Shirt",
+        "price": 599,
+        "category": "T-Shirt",
+        "images": {
+            "image_primary": "http://res.cloudinary.com/react-ecom/image/upload/v1/products/jn4k3xyrt5wxurfshnvz"
+        },
+        "displayedOn": "new-arrivals"
+    },
+    {
+        "_id": "620d1efb059263f8560625bd",
+        "title": "Sonam Bajwa T-Shirt",
+        "price": 599,
+        "category": "T-Shirt",
+        "images": {
+            "image_primary": "http://res.cloudinary.com/react-ecom/image/upload/v1/products/bgcr5i7rfofmbst6gs5x"
+        },
+        "displayedOn": "new-arrivals"
+    },
+    {
+        "_id": "620cf3a0059263f856062563",
+        "title": "AP Dhillon T-Shirt",
+        "price": 599,
+        "category": "T-Shirt",
+        "images": {
+            "image_primary": "http://res.cloudinary.com/react-ecom/image/upload/v1/products/xuqdmcjf1hgpcjzmyhfr"
+        },
+        "displayedOn": "new-arrivals"
+    },
+    {
+        "_id": "620d1ca1059263f8560625ab",
+        "title": "Friday Celebration T-Shirt",
+        "price": 599,
+        "category": "T-Shirt",
+        "images": {
+            "image_primary": "http://res.cloudinary.com/react-ecom/image/upload/v1/products/znhc0nbdyu9wpniitaaq"
+        },
+        "displayedOn": "new-arrivals"
+    },
+    {
+        "_id": "620ce518059263f85606250f",
+        "title": "Superb T-Shirt",
+        "price": 549,
+        "slashedPrice": 649,
+        "category": "T-Shirt",
+        "images": {
+            "image_primary": "http://res.cloudinary.com/react-ecom/image/upload/v1/products/qwd2klxdvwz4a9e07jqu"
+        },
+        "displayedOn": "sale"
+    },
+    {
+        "_id": "620ce227059263f8560624de",
+        "title": "Club House T-Shirt",
+        "price": 549,
+        "slashedPrice": 649,
+        "category": "T-Shirt",
+        "images": {
+            "image_primary": "http://res.cloudinary.com/react-ecom/image/upload/v1/products/rfgpe1ufee2debbodbiy"
+        },
+        "displayedOn": "sale"
+    }
+]
